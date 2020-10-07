@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Catherine's Hugo site"
-theme = "researcher"
+theme = "minimal"
 #disqusShortname = "username" # delete this to disable disqus comments
 googleAnalytics = ""
 
