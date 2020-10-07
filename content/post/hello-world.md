@@ -1,5 +1,5 @@
 ---
-title: "First blog post.
+title: "First blog post."
 date: 2020-10-07
 tags: ["go", "golang", "hugo", "themes"]
 draft: false
