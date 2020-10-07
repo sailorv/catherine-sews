@@ -1,9 +1,9 @@
 ---
-title: "View the source"
-description: "Platform.sh Hugo template"
-tags: ["bootstrap", "responsive"]
+title: "Moon Calendar"
+description: "A ReactJS app that shows the moon phases for each day"
+tags: ["reactjs", "responsive"]
 weight: 5
 draft: false
 ---
 
-You can see the source for this template on [GitHub](https://github.com/platformsh/template-hugo).
+You can view this project at [sailorv.github.io/moon-calendar/](https://sailorv.github.io/moon-calendar/) or view the source code on [Github](https://github.com/sailorv/moon-calendar).
