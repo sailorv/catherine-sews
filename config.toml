@@ -8,9 +8,14 @@ googleAnalytics = ""
 [params]
     author = "Catherine Parkinson"
     description = "This is my Hugo site."
-    [params.footer]
-    text = "By Catherine Parkinson"
-    url = "https://sailorv.github.com"
+    githubUsername = "#"
+    accent = "F8BBD0"
+    showBorder = false
+    backgroundColor = "white"
+    font = "Piazzolla" # should match the name on Google Fonts!
+    highlight = true
+    highlightStyle = "solarized-dark"
+    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
 
 [[menu.main]]
     url = "/"
@@ -21,6 +26,11 @@ googleAnalytics = ""
     url = "/post/"
     name = "Posts"
     weight = 2
+
+[[menu.main]]
+    url = "/project/"
+    name = "Projects"
+    weight = 3
 
 # Social icons to be shown on the right-hand side of the navigation bar
 # The "name" field should match the name of the icon to be used
