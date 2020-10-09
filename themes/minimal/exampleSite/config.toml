@@ -37,26 +37,11 @@ googleAnalytics = ""
 # The list of available icons can be found at http://fontawesome.io/icons/
 
 [[menu.icon]]
-    url = "mailto:me@example.com"
+    url = "mailto:sailorv@gmail.com"
     name = "envelope-o"
     weight = 1
 
 [[menu.icon]]
-    url = "https://github.com/username/"
+    url = "https://github.com/sailorv/"
     name = "github"
     weight = 2
-
-[[menu.icon]]
-    url = "https://twitter.com/username/"
-    name = "twitter"
-    weight = 3
-
-[[menu.icon]]
-    url = "https://www.linkedin.com/in/username/"
-    name = "linkedin"
-    weight = 4
-
-[[menu.icon]]
-    url = "https://www.stackoverflow.com/username/"
-    name = "stack-overflow"
-    weight = 5

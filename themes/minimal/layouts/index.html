@@ -16,7 +16,7 @@
 
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultricies imperdiet euismod. Proin id eleifend lorem. Nulla quis cursus quam. Sed semper viverra nisl, in lacinia felis sagittis ut. Suspendisse porta congue enim non facilisis. Curabitur pellentesque et quam eu dignissim. Sed vitae lobortis est, sit amet lacinia nisl. Phasellus molestie a nisl a dictum. Duis id ligula sed neque eleifend cursus ut at orci. Vestibulum faucibus tellus nec tincidunt aliquam. Suspendisse et lacus eu nisl faucibus vestibulum quis ac neque. Maecenas elementum turpis sed sodales condimentum. Aenean vel consectetur felis.</p>
 
-      <p>Ut vitae elit tellus. Nulla sapien risus, eleifend nec urna ac, tincidunt varius augue. Nullam non mauris fermentum, gravida enim non, facilisis mi. Nunc blandit ut leo vitae eleifend. Sed at est euismod, vehicula lacus non, facilisis eros. Vestibulum congue euismod diam ac laoreet. Nam ut rutrum tellus, quis ornare tortor. Donec vel efficitur nulla, non bibendum augue. Quisque rhoncus risus at dolor ultrices, in interdum lacus tempor.</p>
+      {{ range (.Paginator 5).Pages }} {{ partial "list-item" . }} {{ end }}
 
     </div>
   </div>
