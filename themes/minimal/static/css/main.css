@@ -13,7 +13,19 @@ main {
     margin: auto;
     padding: 25px;
     flex: 1 0 auto;
-    max-width: 750px;
+    width: 100%;
+}
+
+.left {
+  width: 50%;
+  float: left;
+  text-align: left;
+}
+.right {
+  width: 50%;
+  float: right;
+  text-align: left;
+  margin-top: 20px;
 }
 
 /*footer*/

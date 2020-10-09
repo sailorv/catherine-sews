@@ -1,13 +1,13 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "Catherine's Hugo site"
+title = "Catherine Sews"
 theme = "minimal"
 #disqusShortname = "username" # delete this to disable disqus comments
 googleAnalytics = ""
 
 [params]
     author = "Catherine Parkinson"
-    description = "This is my Hugo site."
+    description = "A portfolio of my sewing projects, including new pieces and vintage restoration"
     githubUsername = "#"
     accent = "#F8BBD0"
     showBorder = false

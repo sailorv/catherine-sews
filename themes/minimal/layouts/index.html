@@ -1,7 +1,7 @@
 {{ partial "header" . }}
 
 <main>
-
+  <div class="container">
     <div class="left">
 
         {{ with .Site.Params.profilePic }} <img class="profile" src="{{ . }}"> {{ end }}
@@ -14,12 +14,12 @@
 
     <div class="right">
 
-      {{ range first 10 .Site.RegularPages }}
+      {{ range where .Site.RegularPages "posts" .posts }}
             {{ .Render "summary"}}
         {{ end }}
 
     </div>
-
+  </div>
 </main>
 
 {{ partial "footer" . }}
