@@ -2,13 +2,21 @@
 
 <main>
 
-    <div class="intro">
+    <div class="left">
 
         {{ with .Site.Params.profilePic }} <img class="profile" src="{{ . }}"> {{ end }}
 
         <h1>{{ .Site.Title }}</h1>
 
         <h2>{{ markdownify .Site.Params.Description }}</h2>
+
+    </div>
+
+    <div class="right">
+
+      {{ range first 10 .Site.RegularPages }}
+            {{ .Render "summary"}}
+        {{ end }}
 
     </div>
 
