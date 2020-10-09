@@ -69,9 +69,6 @@ a.icon:hover {
     text-decoration: none;
 }
 
-a:hover {
-    color: var(--accent) !important;
-}
 
 /*paginator at bottom of list view*/
 
@@ -90,7 +87,9 @@ a:hover {
 }
 
 .item-tag {
-    background-color: var(--accent);
+    background-color: transparent;
+    color: #333;
+    box-shadow: none;
 }
 
 /*navigation bar icons*/
@@ -112,4 +111,18 @@ footer {
 
 img {
     max-width: 100%;
+}
+
+/* styles for <main> */
+main a:link, main a:visited {
+  background: linear-gradient(var(--accent), var(--accent));
+  background-size: 100% 0.4rem;
+  background-repeat: no-repeat;
+  background-position: left 0 bottom 0;
+  transition: all 0.08s linear 0s;
+  color: #333;
+}
+main a:hover {
+    background-size: 100% 80%;
+    text-decoration: none;
 }
