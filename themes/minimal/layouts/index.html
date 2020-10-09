@@ -14,9 +14,9 @@
 
     <div class="right">
 
-      {{ range where .Site.RegularPages "posts" .posts }}
-            {{ .Render "summary"}}
-        {{ end }}
+      {{ range where .Site.Recent "Type" "post" }}
+            {{ partial "list-item" . }}
+      {{ end }}
 
     </div>
   </div>
